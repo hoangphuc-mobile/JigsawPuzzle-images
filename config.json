@@ -153,6 +153,27 @@
             "forceSquarePieces": true,
             "maxPieceAspectRatio": 1.2
           }
+        },
+        {
+          "levelId": "wolf_hard",
+          "levelName": "Gray Wolf but easier",
+          "description": "A majestic gray wolf portrait",
+          "imageUrl": "Animal/wolf.jpg",
+          "rows": 5,
+          "cols": 6,
+          "gameModes": ["normal"],
+          "difficulty": "hard",
+          "shuffleDuration": 0.5,
+          "estimatedCompletionTimeMinutes": 25,
+          "tags": ["animal", "wolf", "predator"],
+          "lastUpdated": "2024-01-01",
+          "isActive": true,
+          "sizingProfile": {
+            "targetPuzzleSize": { "x": 15.0, "y": 11.25 },
+            "maintainConsistentSize": true,
+            "forceSquarePieces": true,
+            "maxPieceAspectRatio": 1.2
+          }
         }
       ]
     }
