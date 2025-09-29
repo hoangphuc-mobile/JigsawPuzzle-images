@@ -171,7 +171,7 @@
           "sizingProfile": {
             "targetPuzzleSize": { "x": 15.0, "y": 11.25 },
             "maintainConsistentSize": false,
-            "forceSquarePieces": false,
+            "forceSquarePieces": true,
             "maxPieceAspectRatio": 1.2
           }
         }
