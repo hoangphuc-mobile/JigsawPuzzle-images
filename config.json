@@ -20,7 +20,13 @@
           "estimatedCompletionTimeMinutes": 10,
           "tags": ["animal", "fox", "wildlife"],
           "lastUpdated": "2024-01-01",
-          "isActive": true
+          "isActive": true,
+          "sizingProfile": {
+            "targetPuzzleSize": { "x": 15.0, "y": 11.25 },
+            "maintainConsistentSize": true,
+            "forceSquarePieces": true,
+            "maxPieceAspectRatio": 1.2
+          }
         },
         {
           "levelId": "hamster_easy",
@@ -35,7 +41,13 @@
           "estimatedCompletionTimeMinutes": 5,
           "tags": ["animal", "hamster", "cute"],
           "lastUpdated": "2024-01-01",
-          "isActive": true
+          "isActive": true,
+          "sizingProfile": {
+            "targetPuzzleSize": { "x": 15.0, "y": 11.25 },
+            "maintainConsistentSize": true,
+            "forceSquarePieces": true,
+            "maxPieceAspectRatio": 1.2
+          }
         },
         {
           "levelId": "polarbear_hard",
@@ -50,7 +62,13 @@
           "estimatedCompletionTimeMinutes": 20,
           "tags": ["animal", "polar bear", "arctic"],
           "lastUpdated": "2024-01-01",
-          "isActive": true
+          "isActive": true,
+          "sizingProfile": {
+            "targetPuzzleSize": { "x": 15.0, "y": 11.25 },
+            "maintainConsistentSize": true,
+            "forceSquarePieces": true,
+            "maxPieceAspectRatio": 1.2
+          }
         },
         {
           "levelId": "raccoon_medium",
@@ -65,7 +83,13 @@
           "estimatedCompletionTimeMinutes": 12,
           "tags": ["animal", "raccoon", "clever"],
           "lastUpdated": "2024-01-01",
-          "isActive": true
+          "isActive": true,
+          "sizingProfile": {
+            "targetPuzzleSize": { "x": 15.0, "y": 11.25 },
+            "maintainConsistentSize": true,
+            "forceSquarePieces": true,
+            "maxPieceAspectRatio": 1.2
+          }
         },
         {
           "levelId": "turtle_easy",
@@ -80,7 +104,13 @@
           "estimatedCompletionTimeMinutes": 8,
           "tags": ["animal", "turtle", "ocean"],
           "lastUpdated": "2024-01-01",
-          "isActive": true
+          "isActive": true,
+          "sizingProfile": {
+            "targetPuzzleSize": { "x": 15.0, "y": 11.25 },
+            "maintainConsistentSize": true,
+            "forceSquarePieces": true,
+            "maxPieceAspectRatio": 1.2
+          }
         },
         {
           "levelId": "whitefox_medium",
@@ -95,7 +125,13 @@
           "estimatedCompletionTimeMinutes": 12,
           "tags": ["animal", "arctic fox", "white"],
           "lastUpdated": "2024-01-01",
-          "isActive": true
+          "isActive": true,
+          "sizingProfile": {
+            "targetPuzzleSize": { "x": 15.0, "y": 11.25 },
+            "maintainConsistentSize": true,
+            "forceSquarePieces": true,
+            "maxPieceAspectRatio": 1.2
+          }
         },
         {
           "levelId": "wolf_hard",
@@ -110,7 +146,13 @@
           "estimatedCompletionTimeMinutes": 25,
           "tags": ["animal", "wolf", "predator"],
           "lastUpdated": "2024-01-01",
-          "isActive": true
+          "isActive": true,
+          "sizingProfile": {
+            "targetPuzzleSize": { "x": 15.0, "y": 11.25 },
+            "maintainConsistentSize": true,
+            "forceSquarePieces": true,
+            "maxPieceAspectRatio": 1.2
+          }
         }
       ]
     }
