@@ -15,14 +15,25 @@
           "thumbnailUrl": "Animal/lion_thumb.jpg",
           "rows": 3,
           "cols": 3,
-          "gameModes": ["normal"],
+          "gameModes": [
+            "normal"
+          ],
           "difficulty": "easy",
           "shuffleDuration": 1.0,
           "estimatedCompletionTimeMinutes": 5,
-          "tags": ["animal", "lion", "wildlife", "easy"],
+          "tags": [
+            "animal",
+            "lion",
+            "wildlife",
+            "easy"
+          ],
+          "lastUpdated": "2024-01-01",
           "isActive": true,
           "sizingProfile": {
-            "targetPuzzleSize": {"x": 8.0, "y": 6.0},
+            "targetPuzzleSize": {
+              "x": 8.0,
+              "y": 6.0
+            },
             "maintainConsistentSize": true,
             "forceSquarePieces": true,
             "maxPieceAspectRatio": 1.2
@@ -32,7 +43,12 @@
             "enableTimeWarnings": true,
             "warningAtSeconds": 60,
             "enablePieceRotation": false,
-            "allowedRotationAngles": [0, 90, 180, 270],
+            "allowedRotationAngles": [
+              0,
+              90,
+              180,
+              270
+            ],
             "rotationSnapThreshold": 15.0,
             "hideReferenceImage": false,
             "allowReferenceImageToggle": true,
@@ -47,111 +63,6 @@
             "enableBackgroundMusic": true,
             "musicVolume": 0.5,
             "sfxVolume": 0.7
-          }
-        },
-        {
-          "levelId": "tiger_medium",
-          "levelName": "Fierce Tiger",
-          "description": "A striking image of a tiger in its natural habitat",
-          "imageUrl": "Animal/tiger.webp",
-          "thumbnailUrl": "Animal/tiger_thumb.jpg",
-          "rows": 4,
-          "cols": 6,
-          "gameModes": ["normal", "timeLimit"],
-          "difficulty": "normal",
-          "shuffleDuration": 1.5,
-          "estimatedCompletionTimeMinutes": 15,
-          "tags": ["animal", "tiger", "wildlife", "medium"],
-          "isActive": true,
-          "sizingProfile": {
-            "targetPuzzleSize": {"x": 8.0, "y": 6.0},
-            "maintainConsistentSize": true,
-            "forceSquarePieces": false,
-            "maxPieceAspectRatio": 1.5
-          },
-          "gameSettings": {
-            "timeLimitSeconds": 600,
-            "enableTimeWarnings": true,
-            "warningAtSeconds": 120,
-            "enablePieceRotation": false,
-            "hideReferenceImage": false,
-            "enableHints": true,
-            "maxHints": 2,
-            "baseScore": 200,
-            "difficultyMultiplier": 1.5
-          }
-        },
-        {
-          "levelId": "elephant_hard",
-          "levelName": "Elephant Challenge",
-          "description": "A detailed puzzle featuring a magnificent elephant",
-          "imageUrl": "Animal/elephant.webp",
-          "thumbnailUrl": "Animal/elephant_thumb.jpg",
-          "rows": 6,
-          "cols": 8,
-          "gameModes": ["normal", "timeLimit", "rotatedPieces"],
-          "difficulty": "hard",
-          "shuffleDuration": 2.0,
-          "estimatedCompletionTimeMinutes": 30,
-          "tags": ["animal", "elephant", "wildlife", "hard", "challenge"],
-          "isActive": true,
-          "sizingProfile": {
-            "targetPuzzleSize": {"x": 10.0, "y": 7.5},
-            "maintainConsistentSize": true,
-            "forceSquarePieces": true,
-            "maxPieceAspectRatio": 1.2
-          },
-          "gameSettings": {
-            "timeLimitSeconds": 1200,
-            "enableTimeWarnings": true,
-            "warningAtSeconds": 300,
-            "enablePieceRotation": true,
-            "allowedRotationAngles": [0, 90, 180, 270],
-            "rotationSnapThreshold": 10.0,
-            "hideReferenceImage": false,
-            "enableHints": true,
-            "maxHints": 1,
-            "hintCooldownSeconds": 60,
-            "baseScore": 500,
-            "timeBonus": 2.0,
-            "difficultyMultiplier": 2.5
-          }
-        }
-      ],
-      "defaultSizingProfile": {
-        "targetPuzzleSize": {"x": 8.0, "y": 6.0},
-        "maintainConsistentSize": true,
-        "forceSquarePieces": true,
-        "maxPieceAspectRatio": 1.2
-      }
-    },
-    {
-      "categoryId": "nature_remote",
-      "categoryName": "Beautiful Nature",
-      "description": "Stunning landscapes and natural scenes",
-      "thumbnailUrl": "Nature/thumbnail.jpg",
-      "levels": [
-        {
-          "levelId": "sunset_zen",
-          "levelName": "Peaceful Sunset",
-          "description": "A relaxing sunset scene perfect for zen mode",
-          "imageUrl": "Nature/sunset.webp",
-          "rows": 4,
-          "cols": 4,
-          "gameModes": ["zen", "normal"],
-          "difficulty": "easy",
-          "shuffleDuration": 1.0,
-          "estimatedCompletionTimeMinutes": 10,
-          "tags": ["nature", "sunset", "peaceful", "zen"],
-          "isActive": true,
-          "gameSettings": {
-            "enableTimeWarnings": false,
-            "enableHints": true,
-            "maxHints": 5,
-            "enableSoundEffects": true,
-            "enableBackgroundMusic": true,
-            "musicVolume": 0.3,
-            "baseScore": 150
           }
         }
       ]
