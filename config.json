@@ -2,68 +2,130 @@
   "version": "1.0",
   "categories": [
     {
-      "categoryId": "animals_remote",
+      "categoryId": "animals",
       "categoryName": "Wild Animals",
-      "description": "Beautiful wildlife puzzles featuring animals from around the world",
-      "thumbnailUrl": "Animal/thumbnail.jpg",
+      "description": "Beautiful animal puzzles from around the world",
+      "thumbnailUrl": "Animal/bear.jpg",
       "levels": [
         {
-          "levelId": "lion_easy",
-          "levelName": "Majestic Lion",
-          "description": "A beautiful portrait of the king of the jungle",
-          "imageUrl": "Animal/lion.webp",
-          "thumbnailUrl": "Animal/lion_thumb.jpg",
+          "levelId": "bear_easy",
+          "levelName": "Brown Bear",
+          "description": "A majestic brown bear in the wild",
+          "imageUrl": "Animal/bear.jpg",
           "rows": 3,
           "cols": 3,
-          "gameModes": [
-            "normal"
-          ],
+          "gameModes": ["normal"],
           "difficulty": "easy",
           "shuffleDuration": 1.0,
           "estimatedCompletionTimeMinutes": 5,
-          "tags": [
-            "animal",
-            "lion",
-            "wildlife",
-            "easy"
-          ],
+          "tags": ["animal", "bear", "wildlife"],
           "lastUpdated": "2024-01-01",
-          "isActive": true,
-          "sizingProfile": {
-            "targetPuzzleSize": {
-              "x": 8.0,
-              "y": 6.0
-            },
-            "maintainConsistentSize": true,
-            "forceSquarePieces": true,
-            "maxPieceAspectRatio": 1.2
-          },
-          "gameSettings": {
-            "timeLimitSeconds": 300,
-            "enableTimeWarnings": true,
-            "warningAtSeconds": 60,
-            "enablePieceRotation": false,
-            "allowedRotationAngles": [
-              0,
-              90,
-              180,
-              270
-            ],
-            "rotationSnapThreshold": 15.0,
-            "hideReferenceImage": false,
-            "allowReferenceImageToggle": true,
-            "referenceImageOpacity": 0.3,
-            "enableHints": true,
-            "maxHints": 3,
-            "hintCooldownSeconds": 30,
-            "baseScore": 100,
-            "timeBonus": 1.0,
-            "difficultyMultiplier": 1.0,
-            "enableSoundEffects": true,
-            "enableBackgroundMusic": true,
-            "musicVolume": 0.5,
-            "sfxVolume": 0.7
-          }
+          "isActive": true
+        },
+        {
+          "levelId": "fox_medium",
+          "levelName": "Red Fox",
+          "description": "A clever red fox in its natural habitat",
+          "imageUrl": "Animal/fox.jpg",
+          "rows": 4,
+          "cols": 4,
+          "gameModes": ["normal"],
+          "difficulty": "normal",
+          "shuffleDuration": 1.5,
+          "estimatedCompletionTimeMinutes": 10,
+          "tags": ["animal", "fox", "wildlife"],
+          "lastUpdated": "2024-01-01",
+          "isActive": true
+        },
+        {
+          "levelId": "hamster_easy",
+          "levelName": "Cute Hamster",
+          "description": "An adorable hamster close-up",
+          "imageUrl": "Animal/hamster.jpg",
+          "rows": 3,
+          "cols": 3,
+          "gameModes": ["normal"],
+          "difficulty": "easy",
+          "shuffleDuration": 1.0,
+          "estimatedCompletionTimeMinutes": 5,
+          "tags": ["animal", "hamster", "cute"],
+          "lastUpdated": "2024-01-01",
+          "isActive": true
+        },
+        {
+          "levelId": "polarbear_hard",
+          "levelName": "Polar Bear",
+          "description": "A powerful polar bear in the arctic",
+          "imageUrl": "Animal/polarbear.jpg",
+          "rows": 5,
+          "cols": 5,
+          "gameModes": ["normal"],
+          "difficulty": "hard",
+          "shuffleDuration": 2.0,
+          "estimatedCompletionTimeMinutes": 20,
+          "tags": ["animal", "polar bear", "arctic"],
+          "lastUpdated": "2024-01-01",
+          "isActive": true
+        },
+        {
+          "levelId": "raccoon_medium",
+          "levelName": "Clever Raccoon",
+          "description": "A mischievous raccoon portrait",
+          "imageUrl": "Animal/raccoon.jpg",
+          "rows": 4,
+          "cols": 4,
+          "gameModes": ["normal"],
+          "difficulty": "normal",
+          "shuffleDuration": 1.5,
+          "estimatedCompletionTimeMinutes": 12,
+          "tags": ["animal", "raccoon", "clever"],
+          "lastUpdated": "2024-01-01",
+          "isActive": true
+        },
+        {
+          "levelId": "turtle_easy",
+          "levelName": "Sea Turtle",
+          "description": "A graceful sea turtle swimming",
+          "imageUrl": "Animal/sea turtle.jpg",
+          "rows": 3,
+          "cols": 4,
+          "gameModes": ["normal"],
+          "difficulty": "easy",
+          "shuffleDuration": 1.0,
+          "estimatedCompletionTimeMinutes": 8,
+          "tags": ["animal", "turtle", "ocean"],
+          "lastUpdated": "2024-01-01",
+          "isActive": true
+        },
+        {
+          "levelId": "whitefox_medium",
+          "levelName": "Arctic Fox",
+          "description": "A beautiful white arctic fox",
+          "imageUrl": "Animal/whitefox.jpg",
+          "rows": 4,
+          "cols": 4,
+          "gameModes": ["normal"],
+          "difficulty": "normal",
+          "shuffleDuration": 1.5,
+          "estimatedCompletionTimeMinutes": 12,
+          "tags": ["animal", "arctic fox", "white"],
+          "lastUpdated": "2024-01-01",
+          "isActive": true
+        },
+        {
+          "levelId": "wolf_hard",
+          "levelName": "Gray Wolf",
+          "description": "A majestic gray wolf portrait",
+          "imageUrl": "Animal/wolf.jpg",
+          "rows": 5,
+          "cols": 6,
+          "gameModes": ["normal"],
+          "difficulty": "hard",
+          "shuffleDuration": 2.0,
+          "estimatedCompletionTimeMinutes": 25,
+          "tags": ["animal", "wolf", "predator"],
+          "lastUpdated": "2024-01-01",
+          "isActive": true
         }
       ]
     }
