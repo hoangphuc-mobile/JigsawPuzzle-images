@@ -54,8 +54,8 @@
           "levelName": "Polar Bear",
           "description": "A powerful polar bear in the arctic",
           "imageUrl": "Animal/polarbear.jpg",
-          "rows": 11,
-          "cols": 12,
+          "rows": 3,
+          "cols": 6,
           "gameModes": ["normal"],
           "difficulty": "hard",
           "shuffleDuration": 0.5,
@@ -75,8 +75,8 @@
           "levelName": "Clever Raccoon",
           "description": "A mischievous raccoon portrait",
           "imageUrl": "Animal/raccoon.jpg",
-          "rows": 9,
-          "cols": 10,
+          "rows": 4,
+          "cols": 8,
           "gameModes": ["normal"],
           "difficulty": "normal",
           "shuffleDuration": 0.5,
@@ -96,8 +96,8 @@
           "levelName": "Sea Turtle",
           "description": "A graceful sea turtle swimming",
           "imageUrl": "Animal/sea turtle.jpg",
-          "rows": 8,
-          "cols": 9,
+          "rows": 5,
+          "cols": 10,
           "gameModes": ["normal"],
           "difficulty": "easy",
           "shuffleDuration": 0.5,
@@ -117,8 +117,8 @@
           "levelName": "Arctic Fox",
           "description": "A beautiful white arctic fox",
           "imageUrl": "Animal/whitefox.jpg",
-          "rows": 7,
-          "cols": 8,
+          "rows": 5,
+          "cols": 12,
           "gameModes": ["normal"],
           "difficulty": "normal",
           "shuffleDuration": 0.5,
@@ -129,7 +129,7 @@
           "sizingProfile": {
             "targetPuzzleSize": { "x": 15.0, "y": 11.25 },
             "maintainConsistentSize": true,
-            "forceSquarePieces": false,
+            "forceSquarePieces": true,
             "maxPieceAspectRatio": 1.2
           }
         },
@@ -138,7 +138,7 @@
           "levelName": "Gray Wolf",
           "description": "A majestic gray wolf portrait",
           "imageUrl": "Animal/wolf.jpg",
-          "rows": 6,
+          "rows": 5,
           "cols": 7,
           "gameModes": ["normal"],
           "difficulty": "hard",
@@ -150,7 +150,7 @@
           "sizingProfile": {
             "targetPuzzleSize": { "x": 15.0, "y": 11.25 },
             "maintainConsistentSize": true,
-            "forceSquarePieces": false,
+            "forceSquarePieces": true,
             "maxPieceAspectRatio": 1.2
           }
         },
@@ -170,7 +170,7 @@
           "isActive": true,
           "sizingProfile": {
             "targetPuzzleSize": { "x": 15.0, "y": 11.25 },
-            "maintainConsistentSize": true,
+            "maintainConsistentSize": false,
             "forceSquarePieces": false,
             "maxPieceAspectRatio": 1.2
           }
