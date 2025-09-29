@@ -1,181 +1,253 @@
 {
-  "version": "1.0",
-  "categories": [
-    {
-      "categoryId": "animals",
-      "categoryName": "Wild Animals",
-      "description": "Beautiful animal puzzles from around the world",
-      "thumbnailUrl": "Animal/bear.jpg",
-      "levels": [
+    "version": "1.0",
+    "categories": [
         {
-          "levelId": "fox_medium",
-          "levelName": "Red Fox",
-          "description": "A clever red fox in its natural habitat",
-          "imageUrl": "Animal/fox.jpg",
-          "rows": 4,
-          "cols": 4,
-          "gameModes": ["normal"],
-          "difficulty": "normal",
-          "shuffleDuration": 0.5,
-          "estimatedCompletionTimeMinutes": 10,
-          "tags": ["animal", "fox", "wildlife"],
-          "lastUpdated": "2024-01-01",
-          "isActive": true,
-          "sizingProfile": {
-            "targetPuzzleSize": { "x": 15.0, "y": 11.25 },
-            "maintainConsistentSize": true,
-            "forceSquarePieces": true,
-            "maxPieceAspectRatio": 1.2
-          }
-        },
-        {
-          "levelId": "hamster_easy",
-          "levelName": "Cute Hamster",
-          "description": "An adorable hamster close-up",
-          "imageUrl": "Animal/hamster.jpg",
-          "rows": 2,
-          "cols": 4,
-          "gameModes": ["normal"],
-          "difficulty": "easy",
-          "shuffleDuration": 0.5,
-          "estimatedCompletionTimeMinutes": 5,
-          "tags": ["animal", "hamster", "cute"],
-          "lastUpdated": "2024-01-01",
-          "isActive": true,
-          "sizingProfile": {
-            "targetPuzzleSize": { "x": 15.0, "y": 11.25 },
-            "maintainConsistentSize": true,
-            "forceSquarePieces": true,
-            "maxPieceAspectRatio": 1.2
-          }
-        },
-        {
-          "levelId": "polarbear_hard",
-          "levelName": "Polar Bear",
-          "description": "A powerful polar bear in the arctic",
-          "imageUrl": "Animal/polarbear.jpg",
-          "rows": 3,
-          "cols": 6,
-          "gameModes": ["normal"],
-          "difficulty": "hard",
-          "shuffleDuration": 0.5,
-          "estimatedCompletionTimeMinutes": 20,
-          "tags": ["animal", "polar bear", "arctic"],
-          "lastUpdated": "2024-01-01",
-          "isActive": true,
-          "sizingProfile": {
-            "targetPuzzleSize": { "x": 15.0, "y": 11.25 },
-            "maintainConsistentSize": true,
-            "forceSquarePieces": true,
-            "maxPieceAspectRatio": 1.2
-          }
-        },
-        {
-          "levelId": "raccoon_medium",
-          "levelName": "Clever Raccoon",
-          "description": "A mischievous raccoon portrait",
-          "imageUrl": "Animal/raccoon.jpg",
-          "rows": 4,
-          "cols": 8,
-          "gameModes": ["normal"],
-          "difficulty": "normal",
-          "shuffleDuration": 0.5,
-          "estimatedCompletionTimeMinutes": 12,
-          "tags": ["animal", "raccoon", "clever"],
-          "lastUpdated": "2024-01-01",
-          "isActive": true,
-          "sizingProfile": {
-            "targetPuzzleSize": { "x": 15.0, "y": 11.25 },
-            "maintainConsistentSize": true,
-            "forceSquarePieces": true,
-            "maxPieceAspectRatio": 1.2
-          }
-        },
-        {
-          "levelId": "wolf_hard",
-          "levelName": "Gray Wolf but easier",
-          "description": "A majestic gray wolf portrait",
-          "imageUrl": "Animal/wolf.jpg",
-          "rows": 5,
-          "cols": 6,
-          "gameModes": ["normal"],
-          "difficulty": "hard",
-          "shuffleDuration": 0.5,
-          "estimatedCompletionTimeMinutes": 25,
-          "tags": ["animal", "wolf", "predator"],
-          "lastUpdated": "2024-01-01",
-          "isActive": true,
-          "sizingProfile": {
-            "targetPuzzleSize": { "x": 15.0, "y": 11.25 },
-            "maintainConsistentSize": false,
-            "forceSquarePieces": true,
-            "maxPieceAspectRatio": 1.2
-          }
+            "categoryId": "animals",
+            "categoryName": "Wild Animals",
+            "description": "Beautiful animal puzzles from around the world",
+            "thumbnailUrl": "Animal/bear.jpg",
+            "levels": [
+                {
+                    "levelId": "fox_medium",
+                    "levelName": "Red Fox",
+                    "description": "A clever red fox in its natural habitat",
+                    "imageUrl": "Animal/fox.jpg",
+                    "rows": 4,
+                    "cols": 4,
+                    "gameModes": [
+                        "normal"
+                    ],
+                    "difficulty": "normal",
+                    "shuffleDuration": 0.5,
+                    "estimatedCompletionTimeMinutes": 10,
+                    "tags": [
+                        "animal",
+                        "fox",
+                        "wildlife"
+                    ],
+                    "lastUpdated": "2024-01-01",
+                    "isActive": true,
+                    "sizingProfile": {
+                        "targetPuzzleSize": {
+                            "x": 15,
+                            "y": 11.25
+                        },
+                        "maintainConsistentSize": true,
+                        "forceSquarePieces": true,
+                        "maxPieceAspectRatio": 1.2
+                    }
+                },
+                {
+                    "levelId": "hamster_easy",
+                    "levelName": "Cute Hamster",
+                    "description": "An adorable hamster close-up",
+                    "imageUrl": "Animal/hamster.jpg",
+                    "rows": 2,
+                    "cols": 4,
+                    "gameModes": [
+                        "normal"
+                    ],
+                    "difficulty": "easy",
+                    "shuffleDuration": 0.5,
+                    "estimatedCompletionTimeMinutes": 5,
+                    "tags": [
+                        "animal",
+                        "hamster",
+                        "cute"
+                    ],
+                    "lastUpdated": "2024-01-01",
+                    "isActive": true,
+                    "sizingProfile": {
+                        "targetPuzzleSize": {
+                            "x": 15,
+                            "y": 11.25
+                        },
+                        "maintainConsistentSize": true,
+                        "forceSquarePieces": true,
+                        "maxPieceAspectRatio": 1.2
+                    }
+                },
+                {
+                    "levelId": "polarbear_hard",
+                    "levelName": "Polar Bear",
+                    "description": "A powerful polar bear in the arctic",
+                    "imageUrl": "Animal/polarbear.jpg",
+                    "rows": 3,
+                    "cols": 6,
+                    "gameModes": [
+                        "normal"
+                    ],
+                    "difficulty": "hard",
+                    "shuffleDuration": 0.5,
+                    "estimatedCompletionTimeMinutes": 20,
+                    "tags": [
+                        "animal",
+                        "polar bear",
+                        "arctic"
+                    ],
+                    "lastUpdated": "2024-01-01",
+                    "isActive": true,
+                    "sizingProfile": {
+                        "targetPuzzleSize": {
+                            "x": 15,
+                            "y": 11.25
+                        },
+                        "maintainConsistentSize": true,
+                        "forceSquarePieces": true,
+                        "maxPieceAspectRatio": 1.2
+                    }
+                },
+                {
+                    "levelId": "raccoon_medium",
+                    "levelName": "Clever Raccoon",
+                    "description": "A mischievous raccoon portrait",
+                    "imageUrl": "Animal/raccoon.jpg",
+                    "rows": 4,
+                    "cols": 8,
+                    "gameModes": [
+                        "normal"
+                    ],
+                    "difficulty": "normal",
+                    "shuffleDuration": 0.5,
+                    "estimatedCompletionTimeMinutes": 12,
+                    "tags": [
+                        "animal",
+                        "raccoon",
+                        "clever"
+                    ],
+                    "lastUpdated": "2024-01-01",
+                    "isActive": true,
+                    "sizingProfile": {
+                        "targetPuzzleSize": {
+                            "x": 15,
+                            "y": 11.25
+                        },
+                        "maintainConsistentSize": true,
+                        "forceSquarePieces": true,
+                        "maxPieceAspectRatio": 1.2
+                    }
+                },
+                {
+                    "levelId": "wolf_hard",
+                    "levelName": "Gray Wolf but easier",
+                    "description": "A majestic gray wolf portrait",
+                    "imageUrl": "Animal/wolf.jpg",
+                    "rows": 5,
+                    "cols": 6,
+                    "gameModes": [
+                        "normal"
+                    ],
+                    "difficulty": "hard",
+                    "shuffleDuration": 0.5,
+                    "estimatedCompletionTimeMinutes": 25,
+                    "tags": [
+                        "animal",
+                        "wolf",
+                        "predator"
+                    ],
+                    "lastUpdated": "2024-01-01",
+                    "isActive": true,
+                    "sizingProfile": {
+                        "targetPuzzleSize": {
+                            "x": 15,
+                            "y": 11.25
+                        },
+                        "maintainConsistentSize": false,
+                        "forceSquarePieces": true,
+                        "maxPieceAspectRatio": 1.2
+                    }
+                },
+                {
+                    "levelId": "turtle_easy",
+                    "levelName": "Sea Turtle",
+                    "description": "A graceful sea turtle swimming",
+                    "imageUrl": "Animal/sea turtle.jpg",
+                    "rows": 5,
+                    "cols": 10,
+                    "gameModes": [
+                        "normal"
+                    ],
+                    "difficulty": "easy",
+                    "shuffleDuration": 0.5,
+                    "estimatedCompletionTimeMinutes": 8,
+                    "tags": [
+                        "animal",
+                        "turtle",
+                        "ocean"
+                    ],
+                    "lastUpdated": "2024-01-01",
+                    "isActive": true,
+                    "sizingProfile": {
+                        "targetPuzzleSize": {
+                            "x": 15,
+                            "y": 11.25
+                        },
+                        "maintainConsistentSize": true,
+                        "forceSquarePieces": true,
+                        "maxPieceAspectRatio": 1.2
+                    }
+                },
+                {
+                    "levelId": "whitefox_medium",
+                    "levelName": "Arctic Fox",
+                    "description": "A beautiful white arctic fox",
+                    "imageUrl": "Animal/whitefox.jpg",
+                    "rows": 5,
+                    "cols": 12,
+                    "gameModes": [
+                        "normal"
+                    ],
+                    "difficulty": "normal",
+                    "shuffleDuration": 0.5,
+                    "estimatedCompletionTimeMinutes": 12,
+                    "tags": [
+                        "animal",
+                        "arctic fox",
+                        "white"
+                    ],
+                    "lastUpdated": "2024-01-01",
+                    "isActive": true,
+                    "sizingProfile": {
+                        "targetPuzzleSize": {
+                            "x": 15,
+                            "y": 11.25
+                        },
+                        "maintainConsistentSize": true,
+                        "forceSquarePieces": true,
+                        "maxPieceAspectRatio": 1.2
+                    }
+                },
+                {
+                    "levelId": "wolf_hard",
+                    "levelName": "Gray Wolf",
+                    "description": "A majestic gray wolf portrait",
+                    "imageUrl": "Animal/wolf.jpg",
+                    "rows": 7,
+                    "cols": 14,
+                    "gameModes": [
+                        "normal"
+                    ],
+                    "difficulty": "hard",
+                    "shuffleDuration": 0.5,
+                    "estimatedCompletionTimeMinutes": 25,
+                    "tags": [
+                        "animal",
+                        "wolf",
+                        "predator"
+                    ],
+                    "lastUpdated": "2024-01-01",
+                    "isActive": true,
+                    "sizingProfile": {
+                        "targetPuzzleSize": {
+                            "x": 15,
+                            "y": 11.25
+                        },
+                        "maintainConsistentSize": true,
+                        "forceSquarePieces": true,
+                        "maxPieceAspectRatio": 1.2
+                    }
+                }
+            ]
         }
-        {
-          "levelId": "turtle_easy",
-          "levelName": "Sea Turtle",
-          "description": "A graceful sea turtle swimming",
-          "imageUrl": "Animal/sea turtle.jpg",
-          "rows": 5,
-          "cols": 10,
-          "gameModes": ["normal"],
-          "difficulty": "easy",
-          "shuffleDuration": 0.5,
-          "estimatedCompletionTimeMinutes": 8,
-          "tags": ["animal", "turtle", "ocean"],
-          "lastUpdated": "2024-01-01",
-          "isActive": true,
-          "sizingProfile": {
-            "targetPuzzleSize": { "x": 15.0, "y": 11.25 },
-            "maintainConsistentSize": true,
-            "forceSquarePieces": true,
-            "maxPieceAspectRatio": 1.2
-          }
-        },
-        {
-          "levelId": "whitefox_medium",
-          "levelName": "Arctic Fox",
-          "description": "A beautiful white arctic fox",
-          "imageUrl": "Animal/whitefox.jpg",
-          "rows": 5,
-          "cols": 12,
-          "gameModes": ["normal"],
-          "difficulty": "normal",
-          "shuffleDuration": 0.5,
-          "estimatedCompletionTimeMinutes": 12,
-          "tags": ["animal", "arctic fox", "white"],
-          "lastUpdated": "2024-01-01",
-          "isActive": true,
-          "sizingProfile": {
-            "targetPuzzleSize": { "x": 15.0, "y": 11.25 },
-            "maintainConsistentSize": true,
-            "forceSquarePieces": true,
-            "maxPieceAspectRatio": 1.2
-          }
-        },
-        {
-          "levelId": "wolf_hard",
-          "levelName": "Gray Wolf",
-          "description": "A majestic gray wolf portrait",
-          "imageUrl": "Animal/wolf.jpg",
-          "rows": 7,
-          "cols": 14,
-          "gameModes": ["normal"],
-          "difficulty": "hard",
-          "shuffleDuration": 0.5,
-          "estimatedCompletionTimeMinutes": 25,
-          "tags": ["animal", "wolf", "predator"],
-          "lastUpdated": "2024-01-01",
-          "isActive": true,
-          "sizingProfile": {
-            "targetPuzzleSize": { "x": 15.0, "y": 11.25 },
-            "maintainConsistentSize": true,
-            "forceSquarePieces": true,
-            "maxPieceAspectRatio": 1.2
-          }
-        }
-      ]
-    }
-  ]
+    ]
 }
